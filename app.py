@@ -49,7 +49,7 @@ def main(page: ft.Page):
     index_view = IndexView(home_controller, home_model, home_view, settings_view)
 
     ### Page Settings ###
-    page.title = "kenia sinai escamilla cohuo sm42"
+    page.title = ""
 
     # Run
     page.add(*index_view.content)

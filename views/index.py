@@ -33,7 +33,7 @@ class IndexView(FletView):
                     # Here I am using Column and ListView to illustrate that, since the
                     # view's "content" property is a list. (unless your specify the contrary)
                     ft.Tab(
-                        text="Inicio ^^",
+                        text="HOME",
                         icon=ft.icons.HOME,
                         content=ft.ListView(home_view.content),
                         
@@ -44,20 +44,10 @@ class IndexView(FletView):
                         content=ft.Column(settings_view.content),
                     ),
                     ft.Tab(
-                        text="Otros tabss",
+                        text="another tabs",
                         icon=ft.icons.BUILD,
-                        content=ft.Text("\n\n\t contenido "),
-                    ),
-                     ft.Tab(
-                        text="primera categoria",
-                        icon=ft.icons.BUILD,
-                        content=ft.Text("\n\n\tTab under construction!"),
-                    ),
-                     ft.Tab(
-                        text="segunda categoria",
-                        icon=ft.icons.BUILD,
-                        content=ft.Text("\n\n\tTab under construction!"),
-                    ),
+                        content=ft.Text("\n\n\t tab under construction "),
+                    )
                 ],
                 selected_index=0,
                 animation_duration=0,  # No animation
