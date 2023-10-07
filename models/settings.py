@@ -6,4 +6,4 @@ class SettingsModel(FletModel):
     @data
     def example_content(self):
         
-        return "\n\n\tAjustes"
+        return "\n\n\tSettings"

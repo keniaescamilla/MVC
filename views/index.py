@@ -26,7 +26,7 @@ class IndexView(FletView):
 
     def __init__(self, controller, model, home_view, settings_view):
         view = [
-            ft.Text("Plantilla de tabs", size=30, textcolor="pink"),
+            ft.Text("Plantilla de tabs", size=30),
             ft.Tabs(
                 tabs=[
                     # Remember tab's "content" property expects ONE control, not a list !!

@@ -8,4 +8,4 @@ class HomeModel(IndexModel):
     @data
     def example_content(self):
 
-        return "\n\n\tinicio"
+        return "\n\n\tHome"
